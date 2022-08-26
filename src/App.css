@@ -32,7 +32,34 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.navMenu {
+  --bs-nav-pills-border-radius: 0.375rem;
+  --bs-link-color: rgb(102, 94, 94) !important;
+  --bs-link-hover-color: rgb(22, 19, 19) !important;
+  /* --bs-nav-pills-link-active-bg: rgb(224, 69, 69) !important;
+ --bs-nav-pills-link-active-color: white;
+   -bs-nav-link-color: rgb(22, 19, 19) !important;
+  --bs-nav-link-hover-color:  #fd290d !important; */
+}
+
+
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link {
+  --bs-link-color: rgb(248, 242, 242) !important; 
+  background-color: rgb(228, 46, 46) !important;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: rgb(244, 153, 139) !important
+}
+
+
+a {
+  text-decoration: none !important;
+}
+
