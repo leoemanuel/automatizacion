@@ -1,10 +1,10 @@
 import './App.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Inicio from './componentes/inicio';
-import Navbar from './componentes/Navbar';
-import NavMenu from './componentes/NavMenu';
-import Rutas from './componentes/rutas'
+import Inicio from './componentes/Inicio/inicio';
+import Navbar from './componentes/Header/Navbar';
+import NavMenu from './componentes/Navbar/NavMenu';
+import Rutas from './componentes/Rutas/rutas'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
